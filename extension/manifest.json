@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "version": "0.1",
+  "name": "mOnItOrN",
+  "description": "To monitor the webRequest",
+  "action": {
+    "default_title": "mOnItOrN"
+  },
+  "permissions": ["webRequest", "identity"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
